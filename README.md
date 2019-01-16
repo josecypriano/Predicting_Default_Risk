@@ -44,8 +44,13 @@ Responda a estas perguntas para cada modelo criado:
 
 #### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
 
-##### Regressão Logistíca
+##### a. Logistic Regression + Step Wise
 
+##### b. Decision Tree
+
+##### c. Forrest Model
+
+##### d. Boosted Model
 
 
 #### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
@@ -55,10 +60,14 @@ Responda a estas perguntas para cada modelo criado:
 Decidir sobre o melhor modelo e pontuação de seus novos clientes. Para revisar a consistência, se Score_Creditworthy for maior que Score_NonCreditworthy, a pessoa deve ser rotulada como "Creditworthy"
 
 #### 1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
-a.	Precisão geral contra o seu conjunto de validação
-b.	Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
-c.	Gráfico ROC
-d.	Bias nas Matrizes de Confusão
+
+##### a. Precisão geral contra o seu conjunto de validação
+
+##### b. Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
+
+##### c. Gráfico ROC
+
+##### d. Bias nas Matrizes de Confusão
 
 Nota: Lembre-se de que seu chefe só se preocupa com a precisão das previsões para os segmentos Credityworth e Non-Creditworthy.
 
