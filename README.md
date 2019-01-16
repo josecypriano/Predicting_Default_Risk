@@ -52,12 +52,8 @@ Responda a estas perguntas para cada modelo criado:
 
 * O nosso modelo tem uma acurácia boa, de 76.0%, conforme Figura 2. Enquanto temos uma acurácia ainda maior para *Crediworth* de 87.62%, porém encontramos que o resultado para *Non-Crediworth* pode estar enviesado, pois o resultado é muito baixo, apenas 48.89%.
 
-<p align="center">
-  <img width="700" height="400" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
-</p>
-<p align="center">
-Figura 1: Report Logistic Regression
-</p>
+![lr_01](https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG)
+*Figura 1: Report Logistic Regression*
 
 <p align="center">
   <img width="750" height="240" src="https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG">
