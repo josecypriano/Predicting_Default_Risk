@@ -112,6 +112,10 @@ O modelo escolhido como melhor fit nos dados disponíveis foi o modelo de *Fores
 
 ##### a. Precisão geral contra o seu conjunto de validação
 
+![mc_01](https://user-images.githubusercontent.com/34245933/51283525-99c10800-19cf-11e9-83dd-b81f7f06b31c.png)
+
+*Figura 9: Model Comparison Report for all 4 classification models*
+
 A precisão geral foi a maior em comparação com os outros modelos, de 80.0%.
 
 ##### b. Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
@@ -120,11 +124,11 @@ O segmento *Creditworthy* também conta com uma alta acurácia no modelo *Forest
 
 ##### c. Gráfico ROC
 
+![mc_02](https://user-images.githubusercontent.com/34245933/51283506-8c0b8280-19cf-11e9-8819-44cc750e9599.png)
 
+*Figura 10: ROC curve for all 4 classification models*
 
 ##### d. Bias nas Matrizes de Confusão
-
-Nota: Lembre-se de que seu chefe só se preocupa com a precisão das previsões para os segmentos Credityworth e Non-Creditworthy.
 
 #### 2.	Quantos indivíduos são bons pagadores?
 
