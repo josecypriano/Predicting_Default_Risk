@@ -10,9 +10,15 @@ Responda estas perguntas
 
 1.	Que decisões precisam ser tomadas?
 
+A decisão que precisa ser tomada neste problema de negócio é se aprovamos ou não um crédito para os novos clientes, ou seja, precisamos classificar os novos clientes em duas categorias, APROVADO ou NÃO APROVADO.
+
 2.	Que dados são necessários para informar essas decisões?
 
+
+
 3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
+
+Para este problema, precisamos usar um Modelo Binário, sendo que a variável resposta é SIM ou NÃO para a aprovação.
 
 ## Passo 2: Construindo o Conjunto de Treinamento
 
