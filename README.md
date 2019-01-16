@@ -51,6 +51,10 @@ Responda a estas perguntas para cada modelo criado:
 *Figure 1: Report Logistic Regression*
 </p>
 
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
+
 ##### b. Decision Tree
 
 ##### c. Forrest Model
