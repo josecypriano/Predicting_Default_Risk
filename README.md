@@ -53,33 +53,24 @@ Responda a estas perguntas para cada modelo criado:
 * O nosso modelo tem uma acurácia boa, de 76.0%, conforme Figura 2. Enquanto temos uma acurácia ainda maior para *Crediworth* de 87.62%, porém encontramos que o resultado para *Non-Crediworth* pode estar enviesado, pois o resultado é muito baixo, apenas 48.89%.
 
 ![lr_01](https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG)
+
 *Figura 1: Report Logistic Regression*
 
-<p align="center">
-  <img width="750" height="240" src="https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG">
-</p>
-<p align="center">
-Figura 2: Model Comparison Report for Stepwise Logistic Regression
-</p>
+![lr_02](https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG)
 
-
+*Figura 2: Model Comparison Report for Stepwise Logistic Regression*
 
 ##### b. Decision Tree
 
 
-<p align="center">
-  <img width="1670" height="730" src="https://user-images.githubusercontent.com/34245933/51281191-d5a49f00-19c8-11e9-9528-0f1d18fc6881.PNG">
-</p>
-<p align="center">
-Figura 3: Decision Tree, Variable Importance and Confusion Matrix
-</p>
+![dt_01](https://user-images.githubusercontent.com/34245933/51281191-d5a49f00-19c8-11e9-9528-0f1d18fc6881.PNG)
 
-<p align="center">
-  <img width="750" height="240" src="https://user-images.githubusercontent.com/34245933/51281233-f40a9a80-19c8-11e9-9b54-c52c3c08032f.PNG">
-</p>
-<p align="center">
-Figura 2: Model Comparison Report for Decision Tree
-</p>
+*Figura 3: Decision Tree, Variable Importance and Confusion Matrix*
+
+![dt_02](https://user-images.githubusercontent.com/34245933/51281233-f40a9a80-19c8-11e9-9b54-c52c3c08032f.PNG)
+
+*Figura 2: Model Comparison Report for Decision Tree*
+
 
 
 ##### c. Forrest Model
