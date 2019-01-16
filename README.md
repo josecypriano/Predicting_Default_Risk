@@ -135,3 +135,7 @@ Analisando as matrizes de confusão, percebemos que a variável *Creditworthy* f
 #### 2.	Quantos indivíduos são bons pagadores?
 
 Por fim, analisando após aplicarmos o nosso modelo na base de novos customers, vimos que **408** pessoas estão aptas a receber o empréstimo do nosso banco, sendo que o critério de seleção foi de pessoas com Score >=50% seriam consideradas como *Creditworthy*.
+
+## Alteryx Flow
+
+![alteryx flow](https://user-images.githubusercontent.com/34245933/51284262-13f28c00-19d2-11e9-8545-73aaa7b7d315.PNG)
