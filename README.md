@@ -6,15 +6,15 @@ Você é um agente de crédito em um pequeno banco novo (em operação há dois 
 ## Passo 1: Entendimento de negócios e dados
 Fornecer uma explicação das principais decisões que precisam ser feitas. (Limite de 250 palavras)
 
-### 1.	Que decisões precisam ser tomadas?
+#### 1.	Que decisões precisam ser tomadas?
 
 A decisão que precisa ser tomada neste problema de negócio é se aprovamos ou não um crédito para os novos clientes, ou seja, precisamos classificar os novos clientes em duas categorias, APROVADO ou NÃO APROVADO.
 
-### 2.	Que dados são necessários para informar essas decisões?
+#### 2.	Que dados são necessários para informar essas decisões?
 
 Precisamos ter os dados do passado para podermos treiná-los e aplicar o melhor modelo na base nova. Os dados do passado estão na planilha *credit-data-training.xlsx* e a planilhas que usaremos para aplicar o modelo é *customers-to-score*. Em ambas planilhas, precisaremos dos seguintes campos *Account-Balance, Age-years, Credit-Amount, Credit-Application-Result, Duration-of-Credit-Month, Instalment-per-cent,Length-of-current-employment, Most-valuable-available-asset, No-of-Credits-at-this-Bank, Payment-Status-of-Previous-Credit, Purpose, Type-of-Apartment and Value-Savings-Stocks*
 
-### 3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
+#### 3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
 
 Para este problema, precisamos usar um Modelo Binário, sendo que a variável resposta é SIM ou NÃO para a aprovação do crédito ao cliente.
 
@@ -42,9 +42,7 @@ Nota: Por uma questão de consistência no processo de limpeza de dados, impute 
 
 Para alcançar resultados consistentes os revisores esperam.
 
-Responda esta pergunta:
-
-### 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
+#### 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
 Durante o processo de limpeza, os campos abaixo foram removidos do nosso data set.
 
@@ -66,19 +64,19 @@ Crie todos os modelos a seguir: regressão logística, árvore de decisão (deci
 
 Responda a estas perguntas para cada modelo criado:
 
-### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
+#### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
 
-#### Regressão Logistíca
+##### Regressão Logistíca
 
 
 
-### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
+#### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
 
 ## Step 4: Escrita
 
 Decidir sobre o melhor modelo e pontuação de seus novos clientes. Para revisar a consistência, se Score_Creditworthy for maior que Score_NonCreditworthy, a pessoa deve ser rotulada como "Creditworthy"
 
-### 1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
+#### 1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
 a.	Precisão geral contra o seu conjunto de validação
 b.	Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
 c.	Gráfico ROC
@@ -86,4 +84,4 @@ d.	Bias nas Matrizes de Confusão
 
 Nota: Lembre-se de que seu chefe só se preocupa com a precisão das previsões para os segmentos Credityworth e Non-Creditworthy.
 
-### 2.	Quantos indivíduos são bons pagadores?
+#### 2.	Quantos indivíduos são bons pagadores?
