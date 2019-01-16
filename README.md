@@ -27,22 +27,20 @@ Construa seu conjunto de treinamento dado os dados fornecidos a você. Os dados 
 Aqui estão algumas diretrizes para ajudar a orientar sua limpeza de dados:
 
 ●	Para campos de dados numéricos, existem campos que se correlacionam entre si?
+
 A correlação deve ser de pelo menos 0,70 para ser considerada "alta".
 
 ●	Existem dados em falta para cada um dos campos de dados?
+
 Campos com muitos dados em falta devem ser removidos
 
 ●	Existem apenas alguns valores em um subconjunto de seu campo de dados?
+
 O campo de dados parece muito uniforme (há apenas um valor para todo o campo?). Isso é chamado de "baixa variabilidade" e você deve remover os campos que têm baixa variabilidade. Consulte a seção "Dicas" para encontrar exemplos de campos de dados com baixa variabilidade.
 
 ●	Seu conjunto de dados limpos deve ter 13 colunas onde a média de  Age Years  deve ser 36 (arredondado para cima)
 
 Nota: Por uma questão de consistência no processo de limpeza de dados, impute dados usando a média de todo o campo de dados em vez de remover alguns pontos de dados. (Limite de 100 palavras)
-
-Nota: Para alunos que usam software diferente do Alteryx, por favor, formate cada variável como:
-
-
-
 
 Para alcançar resultados consistentes os revisores esperam.
 
@@ -51,8 +49,11 @@ Responda esta pergunta:
 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
 Concurrent-Credits, Occupation - Ambos campos têm apenas 1 categoria como resultado.
+
 Guarantors, Foreign Workers, No. of Dependents - Campos com baixa variabilidade.
+
 Phone Number - Variável que não é necessária para a criação dos modelos, nenhuma importância.
+
 Duration in Current Address - Campo com um índice alto de missing values, 69%.
 
 ## Passo 3: Treinar seus Modelos de Classificação
