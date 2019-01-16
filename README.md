@@ -69,13 +69,27 @@ Responda a estas perguntas para cada modelo criado:
 
 ![dt_02](https://user-images.githubusercontent.com/34245933/51281233-f40a9a80-19c8-11e9-9b54-c52c3c08032f.PNG)
 
-*Figura 2: Model Comparison Report for Decision Tree*
+*Figura 4: Model Comparison Report for Decision Tree*
 
+### c. Forest Model
 
+![fm_01](https://user-images.githubusercontent.com/34245933/51282204-9cb9f980-19cb-11e9-843f-2b3276a93619.png)
 
-### c. Forrest Model
+*Figura 5: Percentage Error for Different Number of Trees and Variable Importance Plot*
+
+![fm_02](https://user-images.githubusercontent.com/34245933/51282268-c96e1100-19cb-11e9-8f46-b7b8c16ceb1e.png)
+
+*Figura 6: Model Comparison Report for Forest Model*
 
 ### d. Boosted Model
+
+![bm_01](https://user-images.githubusercontent.com/34245933/51282301-e1459500-19cb-11e9-847a-b0dec436118b.PNG)
+
+*Figura 7: Variable Importance Plot for Boosted Model*
+
+![bm_02](https://user-images.githubusercontent.com/34245933/51282325-f3bfce80-19cb-11e9-8b91-0ef91f49e1a5.PNG)
+
+*Figura 8: Model Comparison Report for Boosted Model*
 
 ## Step 4: Escrita
 
