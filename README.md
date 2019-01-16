@@ -50,6 +50,11 @@ Responda esta pergunta:
 
 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
+Concurrent-Credits, Occupation - Ambos campos têm apenas 1 categoria como resultado.
+Guarantors, Foreign Workers, No. of Dependents - Campos com baixa variabilidade.
+Phone Number - Variável que não é necessária para a criação dos modelos, nenhuma importância.
+Duration in Current Address - Campo com um índice alto de missing values, 69%.
+
 ## Passo 3: Treinar seus Modelos de Classificação
 
 Primeiro, crie suas amostras de Estimação e Validação, onde 70% de seu conjunto de dados deve ir para Estimativa e 30% de seu conjunto de dados inteiro deve ser reservado para Validação. Defina a Semente Aleatória como 1.
