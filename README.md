@@ -12,11 +12,11 @@ Responda estas perguntas
 
 A decisão que precisa ser tomada neste problema de negócio é se aprovamos ou não um crédito para os novos clientes, ou seja, precisamos classificar os novos clientes em duas categorias, APROVADO ou NÃO APROVADO.
 
-2.	Que dados são necessários para informar essas decisões?
+### 2.	Que dados são necessários para informar essas decisões?
 
 
 
-3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
+### 3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
 
 Para este problema, precisamos usar um Modelo Binário, sendo que a variável resposta é SIM ou NÃO para a aprovação.
 
@@ -46,7 +46,7 @@ Para alcançar resultados consistentes os revisores esperam.
 
 Responda esta pergunta:
 
-1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
+### 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
 *Concurrent-Credits, Occupation* - Ambos campos têm apenas 1 categoria como resultado.
 
@@ -64,22 +64,15 @@ Crie todos os modelos a seguir: regressão logística, árvore de decisão (deci
 
 Responda a estas perguntas para cada modelo criado:
 
-1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
+### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
 
-2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
-
-Você deve ter quatro conjuntos de perguntas respondidas. (Limite de 500 palavras)
-
+### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
 
 ## Step 4: Escrita
 
 Decidir sobre o melhor modelo e pontuação de seus novos clientes. Para revisar a consistência, se Score_Creditworthy for maior que Score_NonCreditworthy, a pessoa deve ser rotulada como "Creditworthy"
 
-Escreva um breve relatório sobre como você criou o seu modelo de classificação e anote quantos dos novos clientes se qualificariam para um empréstimo. (Limite de 250 palavras)
-
-Responda estas perguntas:
-
-1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
+### 1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
 a.	Precisão geral contra o seu conjunto de validação
 b.	Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
 c.	Gráfico ROC
@@ -87,4 +80,4 @@ d.	Bias nas Matrizes de Confusão
 
 Nota: Lembre-se de que seu chefe só se preocupa com a precisão das previsões para os segmentos Credityworth e Non-Creditworthy.
 
-2.	Quantos indivíduos são bons pagadores?
+### 2.	Quantos indivíduos são bons pagadores?
