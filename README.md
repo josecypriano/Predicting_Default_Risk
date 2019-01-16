@@ -60,7 +60,7 @@ Figura 1: Report Logistic Regression
 </p>
 
 <p align="center">
-<img width="350" height="200 "src="https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG">
+![lr_02](https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG)
 </p>
 <p align="center">
 Figura 2: Model Comparison Report for Stepwise Logistic Regression
