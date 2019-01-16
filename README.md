@@ -46,7 +46,7 @@ Responda a estas perguntas para cada modelo criado:
 
 #### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
 
-##### a. Logistic Regression + Step Wise
+### a. Logistic Regression + Step Wise
 
 * Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Purpose e Credit-Amount* são as variáives preditoras com maior significância, isso pois como vemos na Figura 1 estas variáveis tem p-valor inferior à 0.05.
 
@@ -60,7 +60,7 @@ Responda a estas perguntas para cada modelo criado:
 
 *Figura 2: Model Comparison Report for Stepwise Logistic Regression*
 
-##### b. Decision Tree
+### b. Decision Tree
 
 
 ![dt_01](https://user-images.githubusercontent.com/34245933/51281191-d5a49f00-19c8-11e9-9528-0f1d18fc6881.PNG)
@@ -73,9 +73,9 @@ Responda a estas perguntas para cada modelo criado:
 
 
 
-##### c. Forrest Model
+### c. Forrest Model
 
-##### d. Boosted Model
+### d. Boosted Model
 
 ## Step 4: Escrita
 
