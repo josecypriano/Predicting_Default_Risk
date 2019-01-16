@@ -46,7 +46,7 @@ Responda a estas perguntas para cada modelo criado:
 
 ##### a. Logistic Regression + Step Wise
 
-![lr_01](https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG)
+![lr_01](https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG =250x250)
 
 ##### b. Decision Tree
 
