@@ -8,7 +8,7 @@ Fornecer uma explicação das principais decisões que precisam ser feitas. (Lim
 Decisões chave:
 Responda estas perguntas
 
-1.	Que decisões precisam ser tomadas?
+###1.	Que decisões precisam ser tomadas?
 
 A decisão que precisa ser tomada neste problema de negócio é se aprovamos ou não um crédito para os novos clientes, ou seja, precisamos classificar os novos clientes em duas categorias, APROVADO ou NÃO APROVADO.
 
