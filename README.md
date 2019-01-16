@@ -44,23 +44,35 @@ Responda a estas perguntas para cada modelo criado:
 
 #### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
 
+#### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
+
 ##### a. Logistic Regression + Step Wise
+
+* Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Purpose e Credit-Amount* são as variáives preditoras com maior significância, isso pois como vemos na Figura 1 estas variáveis tem p-valor inferior à 0.05.
+
+* 
 
 <p align="center">
   <img width="700" height="400" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
 </p>
 <p align="center">
-Figure 1: Report Logistic Regression
+Figura 1: Report Logistic Regression
 </p>
+
+<p align="center">
+<img width="700" height="400 "src="https://user-images.githubusercontent.com/34245933/51280270-62019280-19c6-11e9-9410-109640337f03.PNG">
+</p>
+<p align="center">
+Figura 2: Model Comparison Report for Stepwise Logistic Regression
+</p>
+
+
 
 ##### b. Decision Tree
 
 ##### c. Forrest Model
 
 ##### d. Boosted Model
-
-
-#### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
 
 ## Step 4: Escrita
 
