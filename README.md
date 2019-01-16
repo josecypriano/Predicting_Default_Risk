@@ -5,8 +5,6 @@ Você é um agente de crédito em um pequeno banco novo (em operação há dois 
 
 ## Passo 1: Entendimento de negócios e dados
 Fornecer uma explicação das principais decisões que precisam ser feitas. (Limite de 250 palavras)
-Decisões chave:
-Responda estas perguntas
 
 ### 1.	Que decisões precisam ser tomadas?
 
@@ -14,11 +12,11 @@ A decisão que precisa ser tomada neste problema de negócio é se aprovamos ou 
 
 ### 2.	Que dados são necessários para informar essas decisões?
 
-
+Precisamos ter os dados do passado para podermos treiná-los e aplicar o melhor modelo na base nova. Os dados do passado estão na planilha *credit-data-training.xlsx* e a planilhas que usaremos para aplicar o modelo é *customers-to-score*. Em ambas planilhas, precisaremos dos seguintes campos *Account-Balance, Age-years, Credit-Amount, Credit-Application-Result, Duration-of-Credit-Month, Instalment-per-cent,Length-of-current-employment, Most-valuable-available-asset, No-of-Credits-at-this-Bank, Payment-Status-of-Previous-Credit, Purpose, Type-of-Apartment and Value-Savings-Stocks*
 
 ### 3.	Que tipo de modelo (Contínuo, Binário, Não-Binário, Time-Series) precisamos usar para ajudar a tomar essas decisões?
 
-Para este problema, precisamos usar um Modelo Binário, sendo que a variável resposta é SIM ou NÃO para a aprovação.
+Para este problema, precisamos usar um Modelo Binário, sendo que a variável resposta é SIM ou NÃO para a aprovação do crédito ao cliente.
 
 ## Passo 2: Construindo o Conjunto de Treinamento
 
@@ -48,6 +46,8 @@ Responda esta pergunta:
 
 ### 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
+Durante o processo de limpeza, os campos abaixo foram removidos do nosso data set.
+
 *Concurrent-Credits, Occupation* - Ambos campos têm apenas 1 categoria como resultado.
 
 *Guarantors, Foreign Workers, No. of Dependents* - Campos com baixa variabilidade.
@@ -55,6 +55,8 @@ Responda esta pergunta:
 *Phone Number* - Variável que não é necessária para a criação dos modelos, nenhuma importância.
 
 *Duration in Current Address* - Campo com um índice alto de missing values, 69%.
+
+Em relação a input de dados, achei necessário fazer a inclusão de informações no campo *Age*, visto que analisamos e percebemos um missing values de 2%. A premissa utilizada no input destes dados foi a *Mediana*, pois este indicador minimiza o efeito, se ussássemos *média*, de idades muito altas, como por exemplo >70 anos.
 
 ## Passo 3: Treinar seus Modelos de Classificação
 
@@ -65,6 +67,10 @@ Crie todos os modelos a seguir: regressão logística, árvore de decisão (deci
 Responda a estas perguntas para cada modelo criado:
 
 ### 1.	Quais variáveis preditoras são significativas ou as mais importantes? Por favor, mostre os p-values ou gráficos de importância para todas as suas variáveis de previsão.
+
+#### Regressão Logistíca
+
+
 
 ### 2.	Valide seu modelo em relação ao conjunto de Validação. Qual foi a porcentagem geral de precisão? Mostre a matriz de confusão. Existe algum viés (bais) nas previsões do modelo?
 
