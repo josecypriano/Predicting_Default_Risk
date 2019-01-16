@@ -50,7 +50,7 @@ Responda a estas perguntas para cada modelo criado:
 
 * Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Purpose e Credit-Amount* são as variáives preditoras com maior significância, isso pois como vemos na Figura 1 estas variáveis tem p-valor inferior à 0.05.
 
-* 
+* O nosso modelo tem uma acurácia boa, de 76.0%, conforme Figura 2. Enquanto temos uma acurácia ainda maior para *Crediworth* de 87.62%, porém encontramos que o resultado para *Non-Crediworth* pode estar enviesado, pois o resultado é muito baixo, apenas 48.89%.
 
 <p align="center">
   <img width="700" height="400" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
