@@ -132,3 +132,4 @@ O segmento *Creditworthy* também conta com uma alta acurácia no modelo *Forest
 
 #### 2.	Quantos indivíduos são bons pagadores?
 
+Por fim, analisando após aplicarmos o nosso modelo na base de novos customers, vimos que **408** pessoas estão aptas a receber o empréstimo do nosso banco, sendo que o critério de seleção foi de pessoas com Score >=50% seriam consideradas como *Creditworthy*.
