@@ -20,28 +20,6 @@ Para este problema, precisamos usar um Modelo Binário, sendo que a variável re
 
 ## Passo 2: Construindo o Conjunto de Treinamento
 
-Construa seu conjunto de treinamento dado os dados fornecidos a você. Os dados foram limpos para você já assim você não deve precisar converter quaisquer campos de dados para os tipos de dados apropriados.
-
-Aqui estão algumas diretrizes para ajudar a orientar sua limpeza de dados:
-
-●	Para campos de dados numéricos, existem campos que se correlacionam entre si?
-
-A correlação deve ser de pelo menos 0,70 para ser considerada "alta".
-
-●	Existem dados em falta para cada um dos campos de dados?
-
-Campos com muitos dados em falta devem ser removidos
-
-●	Existem apenas alguns valores em um subconjunto de seu campo de dados?
-
-O campo de dados parece muito uniforme (há apenas um valor para todo o campo?). Isso é chamado de "baixa variabilidade" e você deve remover os campos que têm baixa variabilidade. Consulte a seção "Dicas" para encontrar exemplos de campos de dados com baixa variabilidade.
-
-●	Seu conjunto de dados limpos deve ter 13 colunas onde a média de  Age Years  deve ser 36 (arredondado para cima)
-
-Nota: Por uma questão de consistência no processo de limpeza de dados, impute dados usando a média de todo o campo de dados em vez de remover alguns pontos de dados. (Limite de 100 palavras)
-
-Para alcançar resultados consistentes os revisores esperam.
-
 #### 1.	Em seu processo de limpeza, quais campos você removeu ou imputou? Por favor, justifique por que você removeu ou imputou esses campos. As visualizações são incentivadas.
 
 Durante o processo de limpeza, os campos abaixo foram removidos do nosso data set.
