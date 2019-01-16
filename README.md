@@ -70,6 +70,22 @@ Figura 2: Model Comparison Report for Stepwise Logistic Regression
 
 ##### b. Decision Tree
 
+
+<p align="center">
+  <img width="1670" height="730" src="https://user-images.githubusercontent.com/34245933/51281191-d5a49f00-19c8-11e9-9528-0f1d18fc6881.PNG">
+</p>
+<p align="center">
+Figura 3: Decision Tree, Variable Importance and Confusion Matrix
+</p>
+
+<p align="center">
+  <img width="750" height="240" src="https://user-images.githubusercontent.com/34245933/51281233-f40a9a80-19c8-11e9-9b54-c52c3c08032f.PNG">
+</p>
+<p align="center">
+Figura 2: Model Comparison Report for Decision Tree
+</p>
+
+
 ##### c. Forrest Model
 
 ##### d. Boosted Model
