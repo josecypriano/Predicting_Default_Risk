@@ -53,6 +53,7 @@ Responda a estas perguntas para cada modelo criado:
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
+*Figure 1: Report Logistic Regression*
 </p>
 
 ##### b. Decision Tree
