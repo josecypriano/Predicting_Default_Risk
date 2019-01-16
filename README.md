@@ -72,3 +72,4 @@ Decidir sobre o melhor modelo e pontuação de seus novos clientes. Para revisar
 Nota: Lembre-se de que seu chefe só se preocupa com a precisão das previsões para os segmentos Credityworth e Non-Creditworthy.
 
 #### 2.	Quantos indivíduos são bons pagadores?
+
