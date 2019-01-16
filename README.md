@@ -52,7 +52,7 @@ Responda a estas perguntas para cada modelo criado:
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
 </p>
 
 ##### b. Decision Tree
