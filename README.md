@@ -53,6 +53,10 @@ Responda a estas perguntas para cada modelo criado:
 *Figure 1: Report Logistic Regression*
 </p>
 
+        
+<dt>center</dt>
+<dd>*Figure 1: Report Logistic Regression*</dd>
+
 ##### b. Decision Tree
 
 ##### c. Forrest Model
