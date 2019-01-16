@@ -130,6 +130,8 @@ O segmento *Creditworthy* também conta com uma alta acurácia no modelo *Forest
 
 ##### d. Bias nas Matrizes de Confusão
 
+Analisando as matrizes de confusão, percebemos que a variável *Creditworthy* ficou bem alinhada com a modelagem, quase em sua maioria o modelo acertou. Enquanto tivemos uma acurácia menor para *Non-Creditworthy* porém podemos mesmo assim considerar que o modelo não tem um bias significativo.
+
 #### 2.	Quantos indivíduos são bons pagadores?
 
 Por fim, analisando após aplicarmos o nosso modelo na base de novos customers, vimos que **408** pessoas estão aptas a receber o empréstimo do nosso banco, sendo que o critério de seleção foi de pessoas com Score >=50% seriam consideradas como *Creditworthy*.
