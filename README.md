@@ -47,7 +47,7 @@ Responda a estas perguntas para cada modelo criado:
 ##### a. Logistic Regression + Step Wise
 
 <p align="center">
-  <img width="500" height="400" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG">
 </p>
 <p align="center">
 *Figure 1: Report Logistic Regression*
