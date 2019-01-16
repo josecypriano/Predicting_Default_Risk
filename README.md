@@ -50,7 +50,7 @@ Responda a estas perguntas para cada modelo criado:
 
 * Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Purpose e Credit-Amount* são as variáives preditoras com maior significância, isso pois como vemos na Figura 1 estas variáveis tem p-valor inferior à 0.05.
 
-* O nosso modelo tem uma acurácia boa, de 76.0%, conforme Figura 2. Enquanto temos uma acurácia ainda maior para *Crediworth* de 87.62%, porém encontramos que o resultado para *Non-Crediworth* pode estar enviesado, pois o resultado é muito baixo, apenas 48.89%.
+* O nosso modelo tem uma acurácia boa, de 76.0%, conforme Figura 2. Enquanto temos uma acurácia ainda maior para *Creditworthy* de 87.62%, porém encontramos que o resultado para *Non-Creditworthy* pode estar enviesado, pois o resultado é muito baixo, apenas 48.89%.
 
 ![lr_01](https://user-images.githubusercontent.com/34245933/51278921-0d104d00-19c3-11e9-82f9-e58d3cf64ae2.PNG)
 
@@ -62,6 +62,9 @@ Responda a estas perguntas para cada modelo criado:
 
 ### b. Decision Tree
 
+* Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Value-Saving-Stocks e Duration-of-Credit-Month* são as variáives preditoras com maior significância, isso pois como vemos na Figura 3 estas variáveis estão como mais importantes na *Variável Importância*.
+
+* O nosso modelo tem uma acurácia boa, de 79.1% (melhor que o modelo anterior), conforme Figura 4. Para as variáveis *Creditworthy e Non-Creditworthy* temos o mesmo cenário do modelo anterior, uma alta acurácia para *Creditworthy*, de 86.67% e baixa para *Non-Creditworthy*, de apenas 46.67%. Portanto, também podemos enviesar a variável *Non-Creditworthy*.
 
 ![dt_01](https://user-images.githubusercontent.com/34245933/51281191-d5a49f00-19c8-11e9-9528-0f1d18fc6881.PNG)
 
@@ -73,6 +76,10 @@ Responda a estas perguntas para cada modelo criado:
 
 ### c. Forest Model
 
+* Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Credit-Amount, Age-Years e Duration-of-Credit-Month* são as variáives preditoras com maior significância, isso pois como vemos na Figura 5 estas variáveis estão como mais importantes no gráfico de *Variable Importance Plot*.
+
+* Este modelo mostra uma acurácia geral maior que todos os outros modelos até aqui analisados, de 80.0% conforme Figura 5. Como um alta acurácia para *Creditworthy*, de 96.19% e novamente baixa para *Non-Creditworthy*, de apenas 42.22%. Portanto, também temos enviesamento da variável *Non-Creditworthy*.
+
 ![fm_01](https://user-images.githubusercontent.com/34245933/51282204-9cb9f980-19cb-11e9-843f-2b3276a93619.png)
 
 *Figura 5: Percentage Error for Different Number of Trees and Variable Importance Plot*
@@ -82,6 +89,10 @@ Responda a estas perguntas para cada modelo criado:
 *Figura 6: Model Comparison Report for Forest Model*
 
 ### d. Boosted Model
+
+* Considerando que a variável *Credit-Application-Result* é nossa variável target, podemos dizer que as variáveis *Account-Balance, Credit-Amount e Payment-Status-of-Previous-Credit* são as variáives preditoras com maior significância, isso pois como vemos na Figura 7 estas variáveis estão como mais importantes no gráfico de *Variable Importance Plot*.
+
+* Este modelo tem uma acurácia geral de 78.67%, conforme Figura 8. Como um alta acurácia para *Creditworthy*, de 96.16% e novamente baixa para *Non-Creditworthy*, de apenas 37.78%. Também temos enviesamento da variável *Non-Creditworthy*.
 
 ![bm_01](https://user-images.githubusercontent.com/34245933/51282301-e1459500-19cb-11e9-847a-b0dec436118b.PNG)
 
@@ -97,11 +108,19 @@ Decidir sobre o melhor modelo e pontuação de seus novos clientes. Para revisar
 
 #### 1.	Qual modelo você escolheu usar? Por favor, justifique sua decisão usando apenas as seguintes técnicas:
 
+O modelo escolhido como melhor fit nos dados disponíveis foi o modelo de *Forest Model* pois conta com uma maior acurácia em relação aos outros modelos, conforme podemos ver na Figura 9.
+
 ##### a. Precisão geral contra o seu conjunto de validação
+
+A precisão geral foi a maior em comparação com os outros modelos, de 80.0%.
 
 ##### b. Exatidão dentro dos segmentos "Creditworthy" e "Non-Creditworthy"
 
+O segmento *Creditworthy* também conta com uma alta acurácia no modelo *Forest Model* de 96.16%, maior em comparação com os outros modelo. Enquanto o segmento *Non-Creditworthy* não demonstra muita acurácia, apenas de 42.22% porém um dos maiores em relação aos outros modelos.
+
 ##### c. Gráfico ROC
+
+
 
 ##### d. Bias nas Matrizes de Confusão
 
