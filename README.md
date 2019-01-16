@@ -26,11 +26,14 @@ Construa seu conjunto de treinamento dado os dados fornecidos a você. Os dados 
 
 Aqui estão algumas diretrizes para ajudar a orientar sua limpeza de dados:
 
-●	Para campos de dados numéricos, existem campos que se correlacionam entre si? A correlação deve ser de pelo menos 0,70 para ser considerada "alta".
+●	Para campos de dados numéricos, existem campos que se correlacionam entre si?
+A correlação deve ser de pelo menos 0,70 para ser considerada "alta".
 
-●	Existem dados em falta para cada um dos campos de dados? Campos com muitos dados em falta devem ser removidos
+●	Existem dados em falta para cada um dos campos de dados?
+Campos com muitos dados em falta devem ser removidos
 
-●	Existem apenas alguns valores em um subconjunto de seu campo de dados? O campo de dados parece muito uniforme (há apenas um valor para todo o campo?). Isso é chamado de "baixa variabilidade" e você deve remover os campos que têm baixa variabilidade. Consulte a seção "Dicas" para encontrar exemplos de campos de dados com baixa variabilidade.
+●	Existem apenas alguns valores em um subconjunto de seu campo de dados?
+O campo de dados parece muito uniforme (há apenas um valor para todo o campo?). Isso é chamado de "baixa variabilidade" e você deve remover os campos que têm baixa variabilidade. Consulte a seção "Dicas" para encontrar exemplos de campos de dados com baixa variabilidade.
 
 ●	Seu conjunto de dados limpos deve ter 13 colunas onde a média de  Age Years  deve ser 36 (arredondado para cima)
 
